@@ -1,7 +1,7 @@
 import { CheckCheckIcon, ChevronRightIcon, PencilIcon, XIcon } from "lucide-react"
 import { useNavigate } from "react-router-dom"
 
-function Tasks({tasks , completedEvent, removeItem , editItem}){
+function Tasks({ tasks , completedEvent, removeItem , editItem }){
     const navigate = useNavigate();
 
     function onSeeDetailsclick(task){
