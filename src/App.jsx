@@ -3,7 +3,8 @@
 import { useEffect, useState } from 'react'
 import './App.css'
 import AddTasks from './components/AddTasks'
-import Tasks from './components/tasks'
+import Tasks from './components/Tarefas'
+
 function App() {
 
   const [tasks, newTasks] = useState(JSON.parse(localStorage.getItem("tarefas")) || []);
